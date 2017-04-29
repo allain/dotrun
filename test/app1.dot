@@ -1,0 +1,12 @@
+digraph testapp	{
+	"say hello" [shape=box]
+	"before noon?" [shape=diamond]
+	"say good morning" [shape=box]
+	"say good afternoon" [shape=box]
+	"start" -> "say hello"
+	"say hello" -> "before noon?"
+	"before noon?" -> "say good morning" [label=yes]
+	"before noon?" -> "say good afternoon" [label=no]
+	"say good morning" -> "finish"
+    "say good afternoon" -> "finish"    
+}

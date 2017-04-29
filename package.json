@@ -1,0 +1,18 @@
+{
+  "name": "dotrun",
+  "version": "0.1.0",
+  "description": "A tool for using dot files to drive process",
+  "main": "index.js",
+  "author": "Allain Lalonde <allain.lalonde@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "tape test/**/*.js"
+  },
+  "devDependencies": {
+    "tape": "^4.6.3"
+  },
+  "dependencies": {
+    "dotparser": "^0.1.3",
+    "promise-while": "^1.0.1"
+  }
+}
