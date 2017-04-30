@@ -1,1 +1,1 @@
-module.exports = require('./lib/DotRun.js')
+module.exports = require("./lib/DotRun.js");

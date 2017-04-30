@@ -1,15 +1,15 @@
 # dotrun
-A tool for using dot files to drive automation processes
+A tool for using dot files to drive automation processes.
 
 The basic idea is that by using dot files from graphviz, you can
 design the flow of work through a complicated automation script.
 
-It borrows some ideas from Cucumber and supports matching action names to their dynamically.
+It borrows some ideas from Cucumber and supports matching state action dynamically.
 
-As a dreamcode example:
+:
 
 ```js
-import DotRun from 'dotrun'
+const DotRun = require('dotrun')
 
 let runner = new DotRun(`
   digraph example {
